@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (xml)
+
+// 打印输出
+- (void)xmlPrint;
+
 /**
  *  生成当前View的层次结构
  *

@@ -9,6 +9,14 @@
 #import "UIView+xml.h"
 
 @implementation UIView (xml)
+
+// 打印输出
+- (void)xmlPrint
+{
+    NSString *xml = [self xmlWithViewComponent];
+    [xml writeToFile:@"/Volumes/Data/MyIOS/MyTemp/xml.xml" atomically:YES encoding:NSUTF8StringEncoding error:nil];
+}
+
 /**
  *  生成当前View的层次结构
  *
