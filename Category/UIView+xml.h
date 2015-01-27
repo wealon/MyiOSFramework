@@ -1,11 +1,10 @@
 //
 //  UIView+xml.h
-//  MyFrameWork
+//  美团iPad
 //
-//  Created by wealon on 15-01-25.
+//  Created by wealon on 15-1-27.
 //  Copyright (c) 2015年 wealon. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
 
 @interface UIView (xml)
