@@ -14,7 +14,8 @@
 - (void)xmlPrint
 {
     NSString *xml = [self xmlWithViewComponent];
-    [xml writeToFile:@"/Volumes/Data/MyIOS/MyTemp/xml.xml" atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    NSLog("xml = %@",xml);
+//    [xml writeToFile:@"/Volumes/Data/MyIOS/MyTemp/xml.xml" atomically:YES encoding:NSUTF8StringEncoding error:nil];
 }
 
 /**
